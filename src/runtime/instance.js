@@ -84,7 +84,7 @@ export default function (parentClass) {
     }
 
     worldToLocalFromUID(uid, xWorld, yWorld) {
-      const inst = this._runtime.getInstanceByUID(uid);
+      const inst = this.runtime.getInstanceByUid(uid);
       return this.worldToLocalFromInst(inst, xWorld, yWorld);
     }
 
@@ -99,7 +99,7 @@ export default function (parentClass) {
     }
 
     localToWorldFromUID(uid, t, e) {
-      const inst = this._runtime.getInstanceByUID(uid);
+      const inst = this.runtime.getInstanceByUid(uid);
       return this.localToWorldFromInst(inst, t, e);
     }
 
