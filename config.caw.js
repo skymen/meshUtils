@@ -14,7 +14,8 @@ export const minConstructVersion = undefined;
 export const author = "skymen";
 export const website = "https://www.construct.net";
 export const documentation = "https://www.construct.net";
-export const description = "Description";
+export const description =
+  "Convert between mesh local position and world position";
 export const category = ADDON_CATEGORY.GENERAL;
 
 export const hasDomside = false;
