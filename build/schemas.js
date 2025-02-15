@@ -1,4 +1,4 @@
-import Joi, { version } from "joi";
+import Joi from "joi";
 
 // Define the paramSchema
 const paramSchema = Joi.object({
